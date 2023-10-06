@@ -74,12 +74,6 @@ public class UserDao {
                 System.err.println("Username or Password is incorrect.");
             } else {
                 System.err.println("Login success. Welcome to Page");
-                String url = "https://www.youtube.com/watch?v=ZO90EwWy19A";
-                try {
-                    Desktop.getDesktop().browse(new URI(url));
-                } catch (IOException | URISyntaxException e) {
-                    e.printStackTrace();
-                }
             }
 
         } else {
